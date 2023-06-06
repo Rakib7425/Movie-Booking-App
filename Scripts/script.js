@@ -11,12 +11,11 @@ fetch(url).then(res => res.json()).then(result => {
     genres.forEach(element => {
         console.log(element.name);
 
-        ul.innerHTML = `
-            <li class="li"><a>  ${element.id} ${element.name} </a></li> 
+        ul.innerHTML += `
+            <li class="li"> <a> ${element.name} </a> </li> 
         `
+
     });
-
-
 }).catch(err => { console.error(err) });
 
 // console.log(data);
