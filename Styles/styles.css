@@ -71,9 +71,7 @@ main{
 .h1 {
     text-align: center;
 }
-a {
-    cursor: pointer;
-}
+
 /* Right Part */
 .cards {
     display: flex;
