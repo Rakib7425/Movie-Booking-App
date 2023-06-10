@@ -14,7 +14,6 @@ fetch(url).then(res => res.json()).then(result => {
         ul.innerHTML += `
             <li class="li"> <a> ${element.name} </a> </li> 
         `
-
     });
 }).catch(err => { console.error(err) });
 
