@@ -12,7 +12,7 @@ fetch(url).then(res => res.json()).then(result => {
         console.log(element.name);
 
         ul.innerHTML += `
-            <li class="li"> <a> ${element.name} </a> </li> 
+           <a> <li class="li">  ${element.name}  </li> </a>
         `
     });
 }).catch(err => { console.error(err) });
