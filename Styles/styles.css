@@ -75,6 +75,7 @@ main{
 li{
     list-style: none;
     margin-top: 0.30rem;
+    cursor: pointer;
 }
 ul{
    margin-left: 1rem;
